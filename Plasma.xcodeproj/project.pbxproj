@@ -68,6 +68,8 @@
 		F46F16441AEEE37D00F901B6 /* RSSSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSSettings.m; sourceTree = "<group>"; };
 		F46F16471AEEE67700F901B6 /* RSSUserDefaults+Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RSSUserDefaults+Constants.h"; path = "rsscommon/RSSUserDefaults+Constants.h"; sourceTree = "<group>"; };
 		F46F16481AEEE67700F901B6 /* RSSUserDefaults+Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RSSUserDefaults+Constants.m"; path = "rsscommon/RSSUserDefaults+Constants.m"; sourceTree = "<group>"; };
+		F4D30B6D1AF04A230039DCBA /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/RSSPlasmaConfigurationWindowController.xib; sourceTree = "<group>"; };
+		F4D30B6E1AF04A310039DCBA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = rsscommon/ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +246,7 @@
 			knownRegions = (
 				en,
 				fr,
+				ja,
 			);
 			mainGroup = F446E0B91AED912300DDCA02;
 			productRefGroup = F446E0C41AED912300DDCA02 /* Products */;
@@ -295,6 +298,7 @@
 			children = (
 				F46128CB1AF0450900646320 /* en */,
 				F46128CD1AF0452900646320 /* fr */,
+				F4D30B6D1AF04A230039DCBA /* ja */,
 			);
 			name = RSSPlasmaConfigurationWindowController.xib;
 			sourceTree = "<group>";
@@ -304,6 +308,7 @@
 			children = (
 				F46F162D1AEEE22E00F901B6 /* en */,
 				F46128CE1AF0454500646320 /* fr */,
+				F4D30B6E1AF04A310039DCBA /* ja */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

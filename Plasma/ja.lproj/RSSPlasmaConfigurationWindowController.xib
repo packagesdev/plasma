@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7525" systemVersion="14C109" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7525"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="RSSPlasmaConfigurationWindowController">
+            <connections>
+                <outlet property="_focusSlider" destination="W06-M0-PIl" id="Orb-Cd-qtG"/>
+                <outlet property="_focusValueLabel" destination="O3t-La-JY8" id="mdY-p3-7ND"/>
+                <outlet property="_resolutionSlider" destination="RQ0-QX-l08" id="3t8-g1-QTg"/>
+                <outlet property="_resolutionValueLabel" destination="zQV-G2-upk" id="JQa-4p-wxI"/>
+                <outlet property="_speedSlider" destination="Sez-e2-6zS" id="cBY-S3-2f1"/>
+                <outlet property="_speedValueLabel" destination="kbj-iY-u3r" id="aTz-Ox-iU2"/>
+                <outlet property="_zoomSlider" destination="Ugi-9h-jro" id="WQh-hb-MXS"/>
+                <outlet property="_zoomValueLabel" destination="NhG-El-AKs" id="Owq-Ep-kaE"/>
+                <outlet property="cancelButton" destination="XCz-dX-Bpm" id="1Ps-bJ-K2i"/>
+                <outlet property="mainScreenCheckBox" destination="IV0-04-Abh" id="E5e-ky-kWm"/>
+                <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" oneShot="NO" visibleAtLaunch="NO" animationBehavior="default" id="F0z-JX-Cv5" customClass="RSSWindow">
+            <windowStyleMask key="styleMask" titled="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="379" height="277"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1577"/>
+            <view key="contentView" id="se5-gp-TjO">
+                <rect key="frame" x="0.0" y="-5" width="379" height="277"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <customView id="cmp-1e-jLb" customClass="RSSSecondaryBox">
+                        <rect key="frame" x="-1" y="61" width="381" height="48"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <subviews>
+                            <button id="IV0-04-Abh">
+                                <rect key="frame" x="141" y="14" width="178" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="check" title="メインディスプレイのみ" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="H7i-ze-azj">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" size="13" name="HiraKakuProN-W3"/>
+                                </buttonCell>
+                            </button>
+                            <textField verticalHuggingPriority="750" id="iyY-GR-r4K">
+                                <rect key="frame" x="43" y="15" width="93" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="ディスプレイ:" id="fIh-ay-AnI">
+                                    <font key="font" size="13" name="HiraKakuProN-W6"/>
+                                    <color key="textColor" white="0.14112903230000001" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                    </customView>
+                    <customView id="eJJ-Db-Ipk" customClass="RSSLightGrayBackgroundView">
+                        <rect key="frame" x="-1" y="108" width="381" height="170"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <subviews>
+                            <textField verticalHuggingPriority="750" id="IGH-hM-IvY">
+                                <rect key="frame" x="65" y="133" width="71" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="倍率 ：" id="NqR-En-z9Q">
+                                    <font key="font" size="13" name="HiraKakuProN-W6"/>
+                                    <color key="textColor" white="0.14112903230000001" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" id="Szp-O1-93y">
+                                <rect key="frame" x="65" y="99" width="71" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="焦点：" id="yOZ-1J-nk5">
+                                    <font key="font" size="13" name="HiraKakuProN-W6"/>
+                                    <color key="textColor" white="0.14112903230000001" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" id="2yG-ia-Uiy">
+                                <rect key="frame" x="65" y="65" width="71" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="速度：" id="vP4-2P-Sjk">
+                                    <font key="font" size="13" name="HiraKakuProN-W6"/>
+                                    <color key="textColor" white="0.14112903230000001" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <slider verticalHuggingPriority="750" id="Ugi-9h-jro">
+                                <rect key="frame" x="140" y="121" width="150" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="1" maxValue="100" doubleValue="50" tickMarkPosition="below" numberOfTickMarks="11" sliderType="linear" id="zih-w4-gcf"/>
+                                <connections>
+                                    <action selector="setZoom:" target="-2" id="GBP-57-KaY"/>
+                                </connections>
+                            </slider>
+                            <slider verticalHuggingPriority="750" id="W06-M0-PIl">
+                                <rect key="frame" x="140" y="87" width="150" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="1" maxValue="100" doubleValue="50" tickMarkPosition="below" numberOfTickMarks="11" sliderType="linear" id="7tq-IT-iOS"/>
+                                <connections>
+                                    <action selector="setFocus:" target="-2" id="8dR-UR-YHW"/>
+                                </connections>
+                            </slider>
+                            <slider verticalHuggingPriority="750" id="Sez-e2-6zS">
+                                <rect key="frame" x="140" y="53" width="150" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="1" maxValue="100" doubleValue="50" tickMarkPosition="below" numberOfTickMarks="11" sliderType="linear" id="ki0-DC-Y0R"/>
+                                <connections>
+                                    <action selector="setSpeed:" target="-2" id="Ohx-zQ-slc"/>
+                                </connections>
+                            </slider>
+                            <slider verticalHuggingPriority="750" id="RQ0-QX-l08">
+                                <rect key="frame" x="140" y="19" width="150" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="1" maxValue="100" doubleValue="50" tickMarkPosition="below" numberOfTickMarks="11" sliderType="linear" id="BxN-NV-UHb"/>
+                                <connections>
+                                    <action selector="setResolution:" target="-2" id="dVW-PZ-qq6"/>
+                                </connections>
+                            </slider>
+                            <textField verticalHuggingPriority="750" id="bNm-uM-AvB">
+                                <rect key="frame" x="65" y="31" width="71" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="解像度：" id="YlJ-dh-8uS">
+                                    <font key="font" size="13" name="HiraKakuProN-W6"/>
+                                    <color key="textColor" white="0.14112903230000001" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="NhG-El-AKs">
+                                <rect key="frame" x="294" y="130" width="45" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" alignment="center" id="x8P-wO-MyN">
+                                    <font key="font" metaFont="cellTitle"/>
+                                    <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="O3t-La-JY8">
+                                <rect key="frame" x="294" y="96" width="45" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" alignment="center" id="JAZ-6k-CFO">
+                                    <font key="font" metaFont="cellTitle"/>
+                                    <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="kbj-iY-u3r">
+                                <rect key="frame" x="294" y="62" width="45" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" alignment="center" id="YvS-rt-VfH">
+                                    <font key="font" metaFont="cellTitle"/>
+                                    <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="zQV-G2-upk">
+                                <rect key="frame" x="294" y="28" width="45" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" alignment="center" id="qV5-PH-yd3">
+                                    <font key="font" metaFont="cellTitle"/>
+                                    <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                    </customView>
+                    <button verticalHuggingPriority="750" tag="1" id="tde-Yj-v4R">
+                        <rect key="frame" x="281" y="13" width="84" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="OK" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="elN-AQ-ep5">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="closeDialog:" target="-2" id="Hc1-ZK-EdI"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" id="XCz-dX-Bpm">
+                        <rect key="frame" x="176" y="13" width="105" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="キャンセル" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="x7X-uE-4pV">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" size="13" name="HiraKakuProN-W3"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="closeDialog:" target="-2" id="Cb8-ln-y23"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" id="viu-ox-oEm">
+                        <rect key="frame" x="14" y="13" width="104" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="について..." bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="NEn-9P-742">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" size="13" name="HiraKakuProN-W3"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="showAboutBox:" target="-2" id="X1F-lm-91o"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
+            </connections>
+            <point key="canvasLocation" x="216.5" y="351.5"/>
+        </window>
+    </objects>
+</document>
