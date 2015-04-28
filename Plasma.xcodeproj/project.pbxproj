@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F446E0D51AED91B300DDCA02 /* RSSPlasmaView.h in Headers */ = {isa = PBXBuildFile; fileRef = F446E0D31AED91B300DDCA02 /* RSSPlasmaView.h */; };
+		F446E0D61AED91B300DDCA02 /* RSSPlasmaView.mm in Sources */ = {isa = PBXBuildFile; fileRef = F446E0D41AED91B300DDCA02 /* RSSPlasmaView.mm */; };
+		F446E0DA1AED91E900DDCA02 /* RSSPlasmaConfigurationWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F446E0D71AED91E900DDCA02 /* RSSPlasmaConfigurationWindowController.h */; };
+		F446E0DB1AED91E900DDCA02 /* RSSPlasmaConfigurationWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F446E0D81AED91E900DDCA02 /* RSSPlasmaConfigurationWindowController.m */; };
+		F446E0DC1AED91E900DDCA02 /* RSSPlasmaConfigurationWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F446E0D91AED91E900DDCA02 /* RSSPlasmaConfigurationWindowController.xib */; };
+		F446E0DF1AED930100DDCA02 /* RSSPlasmaSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = F446E0DD1AED930100DDCA02 /* RSSPlasmaSettings.h */; };
+		F446E0E01AED930100DDCA02 /* RSSPlasmaSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = F446E0DE1AED930100DDCA02 /* RSSPlasmaSettings.m */; };
+		F446E0E71AED93E000DDCA02 /* Plasma.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F446E0E51AED93E000DDCA02 /* Plasma.cpp */; };
+		F446E0E81AED93E000DDCA02 /* Plasma.h in Headers */ = {isa = PBXBuildFile; fileRef = F446E0E61AED93E000DDCA02 /* Plasma.h */; };
+		F446E0EC1AED9B0800DDCA02 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F446E0EB1AED9B0800DDCA02 /* ScreenSaver.framework */; };
+		F446E0EE1AED9B1300DDCA02 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F446E0ED1AED9B1300DDCA02 /* OpenGL.framework */; };
+		F46128BB1AF01C0E00646320 /* RSSWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = F46128B91AF01C0E00646320 /* RSSWindow.h */; };
+		F46128BC1AF01C0E00646320 /* RSSWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F46128BA1AF01C0E00646320 /* RSSWindow.m */; };
+		F46F162E1AEEE22E00F901B6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F46F162C1AEEE22E00F901B6 /* Localizable.strings */; };
+		F46F16381AEEE27D00F901B6 /* RSSAboutBoxWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F46F16311AEEE27D00F901B6 /* RSSAboutBoxWindowController.h */; };
+		F46F16391AEEE27D00F901B6 /* RSSAboutBoxWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F46F16321AEEE27D00F901B6 /* RSSAboutBoxWindowController.m */; };
+		F46F163A1AEEE27D00F901B6 /* RSSAboutBoxWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F46F16331AEEE27D00F901B6 /* RSSAboutBoxWindowController.xib */; };
+		F46F163B1AEEE27D00F901B6 /* RSSLightGrayBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = F46F16341AEEE27D00F901B6 /* RSSLightGrayBackgroundView.h */; };
+		F46F163C1AEEE27D00F901B6 /* RSSLightGrayBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = F46F16351AEEE27D00F901B6 /* RSSLightGrayBackgroundView.m */; };
+		F46F163D1AEEE27D00F901B6 /* RSSSecondaryBox.h in Headers */ = {isa = PBXBuildFile; fileRef = F46F16361AEEE27D00F901B6 /* RSSSecondaryBox.h */; };
+		F46F163E1AEEE27D00F901B6 /* RSSSecondaryBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F46F16371AEEE27D00F901B6 /* RSSSecondaryBox.m */; };
+		F46F16411AEEE2C000F901B6 /* RSSConfigurationWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F46F163F1AEEE2C000F901B6 /* RSSConfigurationWindowController.h */; };
+		F46F16421AEEE2C000F901B6 /* RSSConfigurationWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F46F16401AEEE2C000F901B6 /* RSSConfigurationWindowController.m */; };
+		F46F16451AEEE37D00F901B6 /* RSSSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = F46F16431AEEE37D00F901B6 /* RSSSettings.h */; };
+		F46F16461AEEE37D00F901B6 /* RSSSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = F46F16441AEEE37D00F901B6 /* RSSSettings.m */; };
+		F46F16491AEEE67700F901B6 /* RSSUserDefaults+Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = F46F16471AEEE67700F901B6 /* RSSUserDefaults+Constants.h */; };
+		F46F164A1AEEE67700F901B6 /* RSSUserDefaults+Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = F46F16481AEEE67700F901B6 /* RSSUserDefaults+Constants.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F446E0C31AED912300DDCA02 /* Plasma.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Plasma.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		F446E0C71AED912300DDCA02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F446E0D31AED91B300DDCA02 /* RSSPlasmaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSPlasmaView.h; sourceTree = "<group>"; };
+		F446E0D41AED91B300DDCA02 /* RSSPlasmaView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RSSPlasmaView.mm; sourceTree = "<group>"; };
+		F446E0D71AED91E900DDCA02 /* RSSPlasmaConfigurationWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSPlasmaConfigurationWindowController.h; sourceTree = "<group>"; };
+		F446E0D81AED91E900DDCA02 /* RSSPlasmaConfigurationWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSPlasmaConfigurationWindowController.m; sourceTree = "<group>"; };
+		F446E0D91AED91E900DDCA02 /* RSSPlasmaConfigurationWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSSPlasmaConfigurationWindowController.xib; sourceTree = "<group>"; };
+		F446E0DD1AED930100DDCA02 /* RSSPlasmaSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSPlasmaSettings.h; sourceTree = "<group>"; };
+		F446E0DE1AED930100DDCA02 /* RSSPlasmaSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSPlasmaSettings.m; sourceTree = "<group>"; };
+		F446E0E51AED93E000DDCA02 /* Plasma.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Plasma.cpp; path = GPL/Plasma.cpp; sourceTree = "<group>"; };
+		F446E0E61AED93E000DDCA02 /* Plasma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Plasma.h; path = GPL/Plasma.h; sourceTree = "<group>"; };
+		F446E0EB1AED9B0800DDCA02 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		F446E0ED1AED9B1300DDCA02 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		F46128B91AF01C0E00646320 /* RSSWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSWindow.h; path = rsscommon/RSSWindow.h; sourceTree = "<group>"; };
+		F46128BA1AF01C0E00646320 /* RSSWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSWindow.m; path = rsscommon/RSSWindow.m; sourceTree = "<group>"; };
+		F46F162D1AEEE22E00F901B6 /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = rsscommon/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F46F16311AEEE27D00F901B6 /* RSSAboutBoxWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSAboutBoxWindowController.h; path = rsscommon/RSSAboutBoxWindowController.h; sourceTree = "<group>"; };
+		F46F16321AEEE27D00F901B6 /* RSSAboutBoxWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSAboutBoxWindowController.m; path = rsscommon/RSSAboutBoxWindowController.m; sourceTree = "<group>"; };
+		F46F16331AEEE27D00F901B6 /* RSSAboutBoxWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RSSAboutBoxWindowController.xib; path = rsscommon/RSSAboutBoxWindowController.xib; sourceTree = "<group>"; };
+		F46F16341AEEE27D00F901B6 /* RSSLightGrayBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSLightGrayBackgroundView.h; path = rsscommon/RSSLightGrayBackgroundView.h; sourceTree = "<group>"; };
+		F46F16351AEEE27D00F901B6 /* RSSLightGrayBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSLightGrayBackgroundView.m; path = rsscommon/RSSLightGrayBackgroundView.m; sourceTree = "<group>"; };
+		F46F16361AEEE27D00F901B6 /* RSSSecondaryBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSSecondaryBox.h; path = rsscommon/RSSSecondaryBox.h; sourceTree = "<group>"; };
+		F46F16371AEEE27D00F901B6 /* RSSSecondaryBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSSecondaryBox.m; path = rsscommon/RSSSecondaryBox.m; sourceTree = "<group>"; };
+		F46F163F1AEEE2C000F901B6 /* RSSConfigurationWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSConfigurationWindowController.h; path = rsscommon/RSSConfigurationWindowController.h; sourceTree = "<group>"; };
+		F46F16401AEEE2C000F901B6 /* RSSConfigurationWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSConfigurationWindowController.m; path = rsscommon/RSSConfigurationWindowController.m; sourceTree = "<group>"; };
+		F46F16431AEEE37D00F901B6 /* RSSSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSSettings.h; sourceTree = "<group>"; };
+		F46F16441AEEE37D00F901B6 /* RSSSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSSettings.m; sourceTree = "<group>"; };
+		F46F16471AEEE67700F901B6 /* RSSUserDefaults+Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RSSUserDefaults+Constants.h"; path = "rsscommon/RSSUserDefaults+Constants.h"; sourceTree = "<group>"; };
+		F46F16481AEEE67700F901B6 /* RSSUserDefaults+Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RSSUserDefaults+Constants.m"; path = "rsscommon/RSSUserDefaults+Constants.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F446E0BF1AED912300DDCA02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F446E0EE1AED9B1300DDCA02 /* OpenGL.framework in Frameworks */,
+				F446E0EC1AED9B0800DDCA02 /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F446E0B91AED912300DDCA02 = {
+			isa = PBXGroup;
+			children = (
+				F446E0C51AED912300DDCA02 /* Plasma */,
+				F446E0C41AED912300DDCA02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F446E0C41AED912300DDCA02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F446E0C31AED912300DDCA02 /* Plasma.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F446E0C51AED912300DDCA02 /* Plasma */ = {
+			isa = PBXGroup;
+			children = (
+				F46F162F1AEEE25C00F901B6 /* rsscommon */,
+				F446E0D11AED918400DDCA02 /* GPL */,
+				F446E0DD1AED930100DDCA02 /* RSSPlasmaSettings.h */,
+				F446E0DE1AED930100DDCA02 /* RSSPlasmaSettings.m */,
+				F446E0D31AED91B300DDCA02 /* RSSPlasmaView.h */,
+				F446E0D41AED91B300DDCA02 /* RSSPlasmaView.mm */,
+				F446E0D21AED918C00DDCA02 /* Configuration */,
+				F446E0C61AED912300DDCA02 /* Supporting Files */,
+				F446E0EA1AED9AF700DDCA02 /* Frameworks */,
+			);
+			path = Plasma;
+			sourceTree = "<group>";
+		};
+		F446E0C61AED912300DDCA02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F446E0C71AED912300DDCA02 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F446E0D11AED918400DDCA02 /* GPL */ = {
+			isa = PBXGroup;
+			children = (
+				F446E0E61AED93E000DDCA02 /* Plasma.h */,
+				F446E0E51AED93E000DDCA02 /* Plasma.cpp */,
+			);
+			name = GPL;
+			sourceTree = "<group>";
+		};
+		F446E0D21AED918C00DDCA02 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				F446E0D71AED91E900DDCA02 /* RSSPlasmaConfigurationWindowController.h */,
+				F446E0D81AED91E900DDCA02 /* RSSPlasmaConfigurationWindowController.m */,
+				F446E0D91AED91E900DDCA02 /* RSSPlasmaConfigurationWindowController.xib */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		F446E0EA1AED9AF700DDCA02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F446E0ED1AED9B1300DDCA02 /* OpenGL.framework */,
+				F446E0EB1AED9B0800DDCA02 /* ScreenSaver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F46F162F1AEEE25C00F901B6 /* rsscommon */ = {
+			isa = PBXGroup;
+			children = (
+				F46F16431AEEE37D00F901B6 /* RSSSettings.h */,
+				F46F16441AEEE37D00F901B6 /* RSSSettings.m */,
+				F46128B91AF01C0E00646320 /* RSSWindow.h */,
+				F46128BA1AF01C0E00646320 /* RSSWindow.m */,
+				F46F16471AEEE67700F901B6 /* RSSUserDefaults+Constants.h */,
+				F46F16481AEEE67700F901B6 /* RSSUserDefaults+Constants.m */,
+				F46F163F1AEEE2C000F901B6 /* RSSConfigurationWindowController.h */,
+				F46F16401AEEE2C000F901B6 /* RSSConfigurationWindowController.m */,
+				F46F16311AEEE27D00F901B6 /* RSSAboutBoxWindowController.h */,
+				F46F16321AEEE27D00F901B6 /* RSSAboutBoxWindowController.m */,
+				F46F16341AEEE27D00F901B6 /* RSSLightGrayBackgroundView.h */,
+				F46F16351AEEE27D00F901B6 /* RSSLightGrayBackgroundView.m */,
+				F46F16361AEEE27D00F901B6 /* RSSSecondaryBox.h */,
+				F46F16371AEEE27D00F901B6 /* RSSSecondaryBox.m */,
+				F46F16301AEEE26B00F901B6 /* Resources */,
+			);
+			name = rsscommon;
+			sourceTree = "<group>";
+		};
+		F46F16301AEEE26B00F901B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F46F16331AEEE27D00F901B6 /* RSSAboutBoxWindowController.xib */,
+				F46F162C1AEEE22E00F901B6 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F446E0C01AED912300DDCA02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46F163D1AEEE27D00F901B6 /* RSSSecondaryBox.h in Headers */,
+				F46F16411AEEE2C000F901B6 /* RSSConfigurationWindowController.h in Headers */,
+				F46F163B1AEEE27D00F901B6 /* RSSLightGrayBackgroundView.h in Headers */,
+				F446E0E81AED93E000DDCA02 /* Plasma.h in Headers */,
+				F446E0DA1AED91E900DDCA02 /* RSSPlasmaConfigurationWindowController.h in Headers */,
+				F446E0DF1AED930100DDCA02 /* RSSPlasmaSettings.h in Headers */,
+				F46F16491AEEE67700F901B6 /* RSSUserDefaults+Constants.h in Headers */,
+				F46128BB1AF01C0E00646320 /* RSSWindow.h in Headers */,
+				F446E0D51AED91B300DDCA02 /* RSSPlasmaView.h in Headers */,
+				F46F16451AEEE37D00F901B6 /* RSSSettings.h in Headers */,
+				F46F16381AEEE27D00F901B6 /* RSSAboutBoxWindowController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F446E0C21AED912300DDCA02 /* Plasma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F446E0CE1AED912300DDCA02 /* Build configuration list for PBXNativeTarget "Plasma" */;
+			buildPhases = (
+				F446E0BE1AED912300DDCA02 /* Sources */,
+				F446E0BF1AED912300DDCA02 /* Frameworks */,
+				F446E0C01AED912300DDCA02 /* Headers */,
+				F446E0C11AED912300DDCA02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Plasma;
+			productName = Plasma;
+			productReference = F446E0C31AED912300DDCA02 /* Plasma.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F446E0BA1AED912300DDCA02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				TargetAttributes = {
+					F446E0C21AED912300DDCA02 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = F446E0BD1AED912300DDCA02 /* Build configuration list for PBXProject "Plasma" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F446E0B91AED912300DDCA02;
+			productRefGroup = F446E0C41AED912300DDCA02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F446E0C21AED912300DDCA02 /* Plasma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F446E0C11AED912300DDCA02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46F163A1AEEE27D00F901B6 /* RSSAboutBoxWindowController.xib in Resources */,
+				F446E0DC1AED91E900DDCA02 /* RSSPlasmaConfigurationWindowController.xib in Resources */,
+				F46F162E1AEEE22E00F901B6 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F446E0BE1AED912300DDCA02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46128BC1AF01C0E00646320 /* RSSWindow.m in Sources */,
+				F446E0D61AED91B300DDCA02 /* RSSPlasmaView.mm in Sources */,
+				F46F163C1AEEE27D00F901B6 /* RSSLightGrayBackgroundView.m in Sources */,
+				F446E0E01AED930100DDCA02 /* RSSPlasmaSettings.m in Sources */,
+				F46F164A1AEEE67700F901B6 /* RSSUserDefaults+Constants.m in Sources */,
+				F46F16461AEEE37D00F901B6 /* RSSSettings.m in Sources */,
+				F46F16391AEEE27D00F901B6 /* RSSAboutBoxWindowController.m in Sources */,
+				F446E0DB1AED91E900DDCA02 /* RSSPlasmaConfigurationWindowController.m in Sources */,
+				F46F163E1AEEE27D00F901B6 /* RSSSecondaryBox.m in Sources */,
+				F446E0E71AED93E000DDCA02 /* Plasma.cpp in Sources */,
+				F46F16421AEEE2C000F901B6 /* RSSConfigurationWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F46F162C1AEEE22E00F901B6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F46F162D1AEEE22E00F901B6 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F446E0CC1AED912300DDCA02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F446E0CD1AED912300DDCA02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F446E0CF1AED912300DDCA02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Plasma/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		F446E0D01AED912300DDCA02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Plasma/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F446E0BD1AED912300DDCA02 /* Build configuration list for PBXProject "Plasma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F446E0CC1AED912300DDCA02 /* Debug */,
+				F446E0CD1AED912300DDCA02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F446E0CE1AED912300DDCA02 /* Build configuration list for PBXNativeTarget "Plasma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F446E0CF1AED912300DDCA02 /* Debug */,
+				F446E0D01AED912300DDCA02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F446E0BA1AED912300DDCA02 /* Project object */;
+}

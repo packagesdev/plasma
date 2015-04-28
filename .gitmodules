@@ -1,0 +1,3 @@
+[submodule "Plasma/rsscommon"]
+	path = Plasma/rsscommon
+	url = https://github.com/packagesdev/rsscommon
