@@ -53,7 +53,9 @@
 		F46128BA1AF01C0E00646320 /* RSSWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSWindow.m; path = rsscommon/RSSWindow.m; sourceTree = "<group>"; };
 		F46128CB1AF0450900646320 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RSSPlasmaConfigurationWindowController.xib; sourceTree = "<group>"; };
 		F46128CD1AF0452900646320 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/RSSPlasmaConfigurationWindowController.xib; sourceTree = "<group>"; };
-		F46128CE1AF0454500646320 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = rsscommon/fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F46128CE1AF0454500646320 /* fr */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = fr; path = rsscommon/fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F467A3651AF19BC600C5D70D /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/RSSPlasmaConfigurationWindowController.xib; sourceTree = "<group>"; };
+		F467A3661AF19BD300C5D70D /* es */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = es; path = rsscommon/es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F46F162D1AEEE22E00F901B6 /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = rsscommon/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F46F16311AEEE27D00F901B6 /* RSSAboutBoxWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSAboutBoxWindowController.h; path = rsscommon/RSSAboutBoxWindowController.h; sourceTree = "<group>"; };
 		F46F16321AEEE27D00F901B6 /* RSSAboutBoxWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSAboutBoxWindowController.m; path = rsscommon/RSSAboutBoxWindowController.m; sourceTree = "<group>"; };
@@ -69,7 +71,7 @@
 		F46F16471AEEE67700F901B6 /* RSSUserDefaults+Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RSSUserDefaults+Constants.h"; path = "rsscommon/RSSUserDefaults+Constants.h"; sourceTree = "<group>"; };
 		F46F16481AEEE67700F901B6 /* RSSUserDefaults+Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RSSUserDefaults+Constants.m"; path = "rsscommon/RSSUserDefaults+Constants.m"; sourceTree = "<group>"; };
 		F4D30B6D1AF04A230039DCBA /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/RSSPlasmaConfigurationWindowController.xib; sourceTree = "<group>"; };
-		F4D30B6E1AF04A310039DCBA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = rsscommon/ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4D30B6E1AF04A310039DCBA /* ja */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ja; path = rsscommon/ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +249,7 @@
 				en,
 				fr,
 				ja,
+				es,
 			);
 			mainGroup = F446E0B91AED912300DDCA02;
 			productRefGroup = F446E0C41AED912300DDCA02 /* Products */;
@@ -299,6 +302,7 @@
 				F46128CB1AF0450900646320 /* en */,
 				F46128CD1AF0452900646320 /* fr */,
 				F4D30B6D1AF04A230039DCBA /* ja */,
+				F467A3651AF19BC600C5D70D /* es */,
 			);
 			name = RSSPlasmaConfigurationWindowController.xib;
 			sourceTree = "<group>";
@@ -309,6 +313,7 @@
 				F46F162D1AEEE22E00F901B6 /* en */,
 				F46128CE1AF0454500646320 /* fr */,
 				F4D30B6E1AF04A310039DCBA /* ja */,
+				F467A3661AF19BD300C5D70D /* es */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
