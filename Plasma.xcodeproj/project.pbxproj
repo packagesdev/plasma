@@ -58,6 +58,8 @@
 		F467A3661AF19BD300C5D70D /* es */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = es; path = rsscommon/es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F467A3671AF19DCF00C5D70D /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = it.lproj/RSSPlasmaConfigurationWindowController.xib; sourceTree = "<group>"; };
 		F467A3681AF19DE600C5D70D /* it */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = it; path = rsscommon/it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F467A3691AF19ED500C5D70D /* sv */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = sv; path = sv.lproj/RSSPlasmaConfigurationWindowController.xib; sourceTree = "<group>"; };
+		F467A36A1AF19F4400C5D70D /* sv */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = sv; path = rsscommon/sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F46F162D1AEEE22E00F901B6 /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = rsscommon/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F46F16311AEEE27D00F901B6 /* RSSAboutBoxWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSAboutBoxWindowController.h; path = rsscommon/RSSAboutBoxWindowController.h; sourceTree = "<group>"; };
 		F46F16321AEEE27D00F901B6 /* RSSAboutBoxWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSAboutBoxWindowController.m; path = rsscommon/RSSAboutBoxWindowController.m; sourceTree = "<group>"; };
@@ -253,6 +255,7 @@
 				ja,
 				es,
 				it,
+				sv,
 			);
 			mainGroup = F446E0B91AED912300DDCA02;
 			productRefGroup = F446E0C41AED912300DDCA02 /* Products */;
@@ -307,6 +310,7 @@
 				F4D30B6D1AF04A230039DCBA /* ja */,
 				F467A3651AF19BC600C5D70D /* es */,
 				F467A3671AF19DCF00C5D70D /* it */,
+				F467A3691AF19ED500C5D70D /* sv */,
 			);
 			name = RSSPlasmaConfigurationWindowController.xib;
 			sourceTree = "<group>";
@@ -319,6 +323,7 @@
 				F4D30B6E1AF04A310039DCBA /* ja */,
 				F467A3661AF19BD300C5D70D /* es */,
 				F467A3681AF19DE600C5D70D /* it */,
+				F467A36A1AF19F4400C5D70D /* sv */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
