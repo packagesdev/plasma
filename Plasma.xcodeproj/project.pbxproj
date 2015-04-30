@@ -49,6 +49,8 @@
 		F446E0E61AED93E000DDCA02 /* Plasma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Plasma.h; path = GPL/Plasma.h; sourceTree = "<group>"; };
 		F446E0EB1AED9B0800DDCA02 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
 		F446E0ED1AED9B1300DDCA02 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		F45E5D581AF2DB8400CB9B9F /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/RSSPlasmaConfigurationWindowController.xib; sourceTree = "<group>"; };
+		F45E5D591AF2DB8E00CB9B9F /* de */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = de; path = rsscommon/de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F46128B91AF01C0E00646320 /* RSSWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSWindow.h; path = rsscommon/RSSWindow.h; sourceTree = "<group>"; };
 		F46128BA1AF01C0E00646320 /* RSSWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSWindow.m; path = rsscommon/RSSWindow.m; sourceTree = "<group>"; };
 		F46128CB1AF0450900646320 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RSSPlasmaConfigurationWindowController.xib; sourceTree = "<group>"; };
@@ -256,6 +258,7 @@
 				es,
 				it,
 				sv,
+				de,
 			);
 			mainGroup = F446E0B91AED912300DDCA02;
 			productRefGroup = F446E0C41AED912300DDCA02 /* Products */;
@@ -311,6 +314,7 @@
 				F467A3651AF19BC600C5D70D /* es */,
 				F467A3671AF19DCF00C5D70D /* it */,
 				F467A3691AF19ED500C5D70D /* sv */,
+				F45E5D581AF2DB8400CB9B9F /* de */,
 			);
 			name = RSSPlasmaConfigurationWindowController.xib;
 			sourceTree = "<group>";
@@ -324,6 +328,7 @@
 				F467A3661AF19BD300C5D70D /* es */,
 				F467A3681AF19DE600C5D70D /* it */,
 				F467A36A1AF19F4400C5D70D /* sv */,
+				F45E5D591AF2DB8E00CB9B9F /* de */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
