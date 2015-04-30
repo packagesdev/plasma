@@ -1,17 +1,11 @@
 
 #import "RSSSettings.h"
 
-@interface RSSPlasmaSettings : NSObject
+@interface RSSPlasmaSettings : RSSSettings
 
 @property NSUInteger zoom;
 @property NSUInteger focus;
 @property NSUInteger speed;
 @property NSUInteger resolution;
-
-- (id)initWithDictionaryRepresentation:(NSDictionary *)inDictionary;
-
-- (NSDictionary *)dictionaryRepresentation;
-
-- (void)resetSettings;
 
 @end
