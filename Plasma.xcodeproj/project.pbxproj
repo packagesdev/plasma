@@ -34,6 +34,8 @@
 		F46F16421AEEE2C000F901B6 /* RSSConfigurationWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F46F16401AEEE2C000F901B6 /* RSSConfigurationWindowController.m */; };
 		F46F16491AEEE67700F901B6 /* RSSUserDefaults+Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = F46F16471AEEE67700F901B6 /* RSSUserDefaults+Constants.h */; };
 		F46F164A1AEEE67700F901B6 /* RSSUserDefaults+Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = F46F16481AEEE67700F901B6 /* RSSUserDefaults+Constants.m */; };
+		F4F6ABA91AF426A000818F9E /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F6ABA71AF426A000818F9E /* thumbnail.png */; };
+		F4F6ABAA1AF426A000818F9E /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F6ABA81AF426A000818F9E /* thumbnail@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +80,8 @@
 		F46F16481AEEE67700F901B6 /* RSSUserDefaults+Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RSSUserDefaults+Constants.m"; path = "rsscommon/RSSUserDefaults+Constants.m"; sourceTree = "<group>"; };
 		F4D30B6D1AF04A230039DCBA /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/RSSPlasmaConfigurationWindowController.xib; sourceTree = "<group>"; };
 		F4D30B6E1AF04A310039DCBA /* ja */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ja; path = rsscommon/ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4F6ABA71AF426A000818F9E /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		F4F6ABA81AF426A000818F9E /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				F446E0C71AED912300DDCA02 /* Info.plist */,
+				F4F6ABA71AF426A000818F9E /* thumbnail.png */,
+				F4F6ABA81AF426A000818F9E /* thumbnail@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -275,8 +281,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4F6ABA91AF426A000818F9E /* thumbnail.png in Resources */,
 				F46F163A1AEEE27D00F901B6 /* RSSAboutBoxWindowController.xib in Resources */,
 				F46128CA1AF0450900646320 /* RSSPlasmaConfigurationWindowController.xib in Resources */,
+				F4F6ABAA1AF426A000818F9E /* thumbnail@2x.png in Resources */,
 				F46F162E1AEEE22E00F901B6 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
