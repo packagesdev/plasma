@@ -1,7 +1,7 @@
 
 #import "RSSPlasmaSettings.h"
 
-NSString * const RSSPlasma_Settings_Zoom=@"Zoon";
+NSString * const RSSPlasma_Settings_Zoom=@"Zoom";
 NSString * const RSSPlasma_Settings_Focus=@"Focus";
 NSString * const RSSPlasma_Settings_Speed=@"Speed";
 NSString * const RSSPlasma_Settings_Resolution=@"Resolution";
