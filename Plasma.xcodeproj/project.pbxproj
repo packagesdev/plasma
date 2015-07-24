@@ -152,8 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				F446E0C71AED912300DDCA02 /* Info.plist */,
-				F4F6ABA71AF426A000818F9E /* thumbnail.png */,
-				F4F6ABA81AF426A000818F9E /* thumbnail@2x.png */,
+				F4FBD5491B62E32300435A46 /* images */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -223,6 +222,15 @@
 				F4F6DBF61B4F2FE600236D52 /* refafactor */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F4FBD5491B62E32300435A46 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F4F6ABA71AF426A000818F9E /* thumbnail.png */,
+				F4F6ABA81AF426A000818F9E /* thumbnail@2x.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
