@@ -1,10 +1,10 @@
 
 #import "RSSPlasmaSettings.h"
 
-NSString * const RSSPlasma_Settings_Zoom=@"Zoom";
-NSString * const RSSPlasma_Settings_Focus=@"Focus";
-NSString * const RSSPlasma_Settings_Speed=@"Speed";
-NSString * const RSSPlasma_Settings_Resolution=@"Resolution";
+NSString * const RSSPlasma_Settings_ZoomKey=@"Zoom";
+NSString * const RSSPlasma_Settings_FocusKey=@"Focus";
+NSString * const RSSPlasma_Settings_SpeedKey=@"Speed";
+NSString * const RSSPlasma_Settings_ResolutionKey=@"Resolution";
 
 @implementation RSSPlasmaSettings
 
@@ -14,7 +14,7 @@ NSString * const RSSPlasma_Settings_Resolution=@"Resolution";
 	
 	if (self!=nil)
 	{
-		NSNumber * tNumber=inDictionary[RSSPlasma_Settings_Zoom];
+		NSNumber * tNumber=inDictionary[RSSPlasma_Settings_ZoomKey];
 		
 		if (tNumber==nil)
 		{
@@ -22,10 +22,10 @@ NSString * const RSSPlasma_Settings_Resolution=@"Resolution";
 		}
 		else
 		{
-			_zoom=[inDictionary[RSSPlasma_Settings_Zoom] unsignedIntegerValue];
-			_focus=[inDictionary[RSSPlasma_Settings_Focus] unsignedIntegerValue];
-			_speed=[inDictionary[RSSPlasma_Settings_Speed] unsignedIntegerValue];
-			_resolution=[inDictionary[RSSPlasma_Settings_Resolution] unsignedIntegerValue];
+			_zoom=[inDictionary[RSSPlasma_Settings_ZoomKey] unsignedIntegerValue];
+			_focus=[inDictionary[RSSPlasma_Settings_FocusKey] unsignedIntegerValue];
+			_speed=[inDictionary[RSSPlasma_Settings_SpeedKey] unsignedIntegerValue];
+			_resolution=[inDictionary[RSSPlasma_Settings_ResolutionKey] unsignedIntegerValue];
 		}
 	}
 	
@@ -38,10 +38,10 @@ NSString * const RSSPlasma_Settings_Resolution=@"Resolution";
 	
 	if (tMutableDictionary!=nil)
 	{
-		tMutableDictionary[RSSPlasma_Settings_Zoom]=@(_zoom);
-		tMutableDictionary[RSSPlasma_Settings_Focus]=@(_focus);
-		tMutableDictionary[RSSPlasma_Settings_Speed]=@(_speed);
-		tMutableDictionary[RSSPlasma_Settings_Resolution]=@(_resolution);
+		tMutableDictionary[RSSPlasma_Settings_ZoomKey]=@(_zoom);
+		tMutableDictionary[RSSPlasma_Settings_FocusKey]=@(_focus);
+		tMutableDictionary[RSSPlasma_Settings_SpeedKey]=@(_speed);
+		tMutableDictionary[RSSPlasma_Settings_ResolutionKey]=@(_resolution);
 	}
 	
 	return [tMutableDictionary copy];
