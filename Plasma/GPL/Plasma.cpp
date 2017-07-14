@@ -324,4 +324,6 @@ void scene::draw()
             glTexCoord2f(textop, texright);
             glVertex2f(1.0f, 1.0f);
     glEnd();
+	
+	glFinish();
 }
