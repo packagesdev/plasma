@@ -26,14 +26,14 @@
 		F46F16381AEEE27D00F901B6 /* RSSAboutBoxWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F46F16311AEEE27D00F901B6 /* RSSAboutBoxWindowController.h */; };
 		F46F16391AEEE27D00F901B6 /* RSSAboutBoxWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F46F16321AEEE27D00F901B6 /* RSSAboutBoxWindowController.m */; };
 		F46F163A1AEEE27D00F901B6 /* RSSAboutBoxWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F46F16331AEEE27D00F901B6 /* RSSAboutBoxWindowController.xib */; };
-		F46F163B1AEEE27D00F901B6 /* RSSLightGrayBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = F46F16341AEEE27D00F901B6 /* RSSLightGrayBackgroundView.h */; };
-		F46F163C1AEEE27D00F901B6 /* RSSLightGrayBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = F46F16351AEEE27D00F901B6 /* RSSLightGrayBackgroundView.m */; };
 		F46F163D1AEEE27D00F901B6 /* RSSSecondaryBox.h in Headers */ = {isa = PBXBuildFile; fileRef = F46F16361AEEE27D00F901B6 /* RSSSecondaryBox.h */; };
 		F46F163E1AEEE27D00F901B6 /* RSSSecondaryBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F46F16371AEEE27D00F901B6 /* RSSSecondaryBox.m */; };
 		F46F16411AEEE2C000F901B6 /* RSSConfigurationWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F46F163F1AEEE2C000F901B6 /* RSSConfigurationWindowController.h */; };
 		F46F16421AEEE2C000F901B6 /* RSSConfigurationWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F46F16401AEEE2C000F901B6 /* RSSConfigurationWindowController.m */; };
 		F46F16491AEEE67700F901B6 /* RSSUserDefaults+Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = F46F16471AEEE67700F901B6 /* RSSUserDefaults+Constants.h */; };
 		F46F164A1AEEE67700F901B6 /* RSSUserDefaults+Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = F46F16481AEEE67700F901B6 /* RSSUserDefaults+Constants.m */; };
+		F4AF1878216429F400CED148 /* RSSView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AF1876216429F400CED148 /* RSSView.h */; };
+		F4AF1879216429F400CED148 /* RSSView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AF1877216429F400CED148 /* RSSView.m */; };
 		F4F6ABA91AF426A000818F9E /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F6ABA71AF426A000818F9E /* thumbnail.png */; };
 		F4F6ABAA1AF426A000818F9E /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F6ABA81AF426A000818F9E /* thumbnail@2x.png */; };
 /* End PBXBuildFile section */
@@ -87,14 +87,14 @@
 		F46F16311AEEE27D00F901B6 /* RSSAboutBoxWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSAboutBoxWindowController.h; path = rsscommon/RSSAboutBoxWindowController.h; sourceTree = "<group>"; };
 		F46F16321AEEE27D00F901B6 /* RSSAboutBoxWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSAboutBoxWindowController.m; path = rsscommon/RSSAboutBoxWindowController.m; sourceTree = "<group>"; };
 		F46F16331AEEE27D00F901B6 /* RSSAboutBoxWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RSSAboutBoxWindowController.xib; path = rsscommon/RSSAboutBoxWindowController.xib; sourceTree = "<group>"; };
-		F46F16341AEEE27D00F901B6 /* RSSLightGrayBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSLightGrayBackgroundView.h; path = rsscommon/RSSLightGrayBackgroundView.h; sourceTree = "<group>"; };
-		F46F16351AEEE27D00F901B6 /* RSSLightGrayBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSLightGrayBackgroundView.m; path = rsscommon/RSSLightGrayBackgroundView.m; sourceTree = "<group>"; };
 		F46F16361AEEE27D00F901B6 /* RSSSecondaryBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSSecondaryBox.h; path = rsscommon/RSSSecondaryBox.h; sourceTree = "<group>"; };
 		F46F16371AEEE27D00F901B6 /* RSSSecondaryBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSSecondaryBox.m; path = rsscommon/RSSSecondaryBox.m; sourceTree = "<group>"; };
 		F46F163F1AEEE2C000F901B6 /* RSSConfigurationWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSConfigurationWindowController.h; path = rsscommon/RSSConfigurationWindowController.h; sourceTree = "<group>"; };
 		F46F16401AEEE2C000F901B6 /* RSSConfigurationWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSConfigurationWindowController.m; path = rsscommon/RSSConfigurationWindowController.m; sourceTree = "<group>"; };
 		F46F16471AEEE67700F901B6 /* RSSUserDefaults+Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RSSUserDefaults+Constants.h"; path = "rsscommon/RSSUserDefaults+Constants.h"; sourceTree = "<group>"; };
 		F46F16481AEEE67700F901B6 /* RSSUserDefaults+Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RSSUserDefaults+Constants.m"; path = "rsscommon/RSSUserDefaults+Constants.m"; sourceTree = "<group>"; };
+		F4AF1876216429F400CED148 /* RSSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSView.h; path = rsscommon/RSSView.h; sourceTree = "<group>"; };
+		F4AF1877216429F400CED148 /* RSSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSView.m; path = rsscommon/RSSView.m; sourceTree = "<group>"; };
 		F4D30B6D1AF04A230039DCBA /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/RSSPlasmaConfigurationWindowController.xib; sourceTree = "<group>"; };
 		F4D30B6E1AF04A310039DCBA /* ja */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ja; path = rsscommon/ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F4F6ABA71AF426A000818F9E /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
@@ -198,8 +198,8 @@
 				F46F16401AEEE2C000F901B6 /* RSSConfigurationWindowController.m */,
 				F46F16311AEEE27D00F901B6 /* RSSAboutBoxWindowController.h */,
 				F46F16321AEEE27D00F901B6 /* RSSAboutBoxWindowController.m */,
-				F46F16341AEEE27D00F901B6 /* RSSLightGrayBackgroundView.h */,
-				F46F16351AEEE27D00F901B6 /* RSSLightGrayBackgroundView.m */,
+				F4AF1876216429F400CED148 /* RSSView.h */,
+				F4AF1877216429F400CED148 /* RSSView.m */,
 				F46F16361AEEE27D00F901B6 /* RSSSecondaryBox.h */,
 				F46F16371AEEE27D00F901B6 /* RSSSecondaryBox.m */,
 				F46F16301AEEE26B00F901B6 /* Resources */,
@@ -242,8 +242,8 @@
 			files = (
 				F46F163D1AEEE27D00F901B6 /* RSSSecondaryBox.h in Headers */,
 				F46F16411AEEE2C000F901B6 /* RSSConfigurationWindowController.h in Headers */,
-				F46F163B1AEEE27D00F901B6 /* RSSLightGrayBackgroundView.h in Headers */,
 				F446E0E81AED93E000DDCA02 /* Plasma.h in Headers */,
+				F4AF1878216429F400CED148 /* RSSView.h in Headers */,
 				F446E0DA1AED91E900DDCA02 /* RSSPlasmaConfigurationWindowController.h in Headers */,
 				F446E0DF1AED930100DDCA02 /* RSSPlasmaSettings.h in Headers */,
 				F46F16491AEEE67700F901B6 /* RSSUserDefaults+Constants.h in Headers */,
@@ -367,10 +367,10 @@
 			files = (
 				F46128BC1AF01C0E00646320 /* RSSWindow.m in Sources */,
 				F446E0D61AED91B300DDCA02 /* RSSPlasmaView.mm in Sources */,
-				F46F163C1AEEE27D00F901B6 /* RSSLightGrayBackgroundView.m in Sources */,
 				F446E0E01AED930100DDCA02 /* RSSPlasmaSettings.m in Sources */,
 				F46F164A1AEEE67700F901B6 /* RSSUserDefaults+Constants.m in Sources */,
 				F46F16391AEEE27D00F901B6 /* RSSAboutBoxWindowController.m in Sources */,
+				F4AF1879216429F400CED148 /* RSSView.m in Sources */,
 				F446E0DB1AED91E900DDCA02 /* RSSPlasmaConfigurationWindowController.m in Sources */,
 				F46F163E1AEEE27D00F901B6 /* RSSSecondaryBox.m in Sources */,
 				F467A36F1AF1ADA500C5D70D /* RSSSettings.m in Sources */,
@@ -500,7 +500,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 8;
 				INFOPLIST_FILE = Plasma/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,7 +513,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 8;
 				INFOPLIST_FILE = Plasma/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
