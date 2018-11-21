@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4221B9721A61CFC00C3915B /* NSColor+LabelColor.h in Headers */ = {isa = PBXBuildFile; fileRef = F4221B9521A61CFC00C3915B /* NSColor+LabelColor.h */; };
+		F4221B9821A61CFC00C3915B /* NSColor+LabelColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F4221B9621A61CFC00C3915B /* NSColor+LabelColor.m */; };
 		F446E0D51AED91B300DDCA02 /* RSSPlasmaView.h in Headers */ = {isa = PBXBuildFile; fileRef = F446E0D31AED91B300DDCA02 /* RSSPlasmaView.h */; };
 		F446E0D61AED91B300DDCA02 /* RSSPlasmaView.mm in Sources */ = {isa = PBXBuildFile; fileRef = F446E0D41AED91B300DDCA02 /* RSSPlasmaView.mm */; };
 		F446E0DA1AED91E900DDCA02 /* RSSPlasmaConfigurationWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F446E0D71AED91E900DDCA02 /* RSSPlasmaConfigurationWindowController.h */; };
@@ -56,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F4221B9521A61CFC00C3915B /* NSColor+LabelColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSColor+LabelColor.h"; path = "rsscommon/NSColor+LabelColor.h"; sourceTree = "<group>"; };
+		F4221B9621A61CFC00C3915B /* NSColor+LabelColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSColor+LabelColor.m"; path = "rsscommon/NSColor+LabelColor.m"; sourceTree = "<group>"; };
 		F446E0C31AED912300DDCA02 /* Plasma.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Plasma.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		F446E0C71AED912300DDCA02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F446E0D31AED91B300DDCA02 /* RSSPlasmaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSPlasmaView.h; sourceTree = "<group>"; };
@@ -188,6 +192,8 @@
 		F46F162F1AEEE25C00F901B6 /* rsscommon */ = {
 			isa = PBXGroup;
 			children = (
+				F4221B9521A61CFC00C3915B /* NSColor+LabelColor.h */,
+				F4221B9621A61CFC00C3915B /* NSColor+LabelColor.m */,
 				F467A36C1AF1ADA500C5D70D /* RSSSettings.h */,
 				F467A36D1AF1ADA500C5D70D /* RSSSettings.m */,
 				F46128B91AF01C0E00646320 /* RSSWindow.h */,
@@ -248,6 +254,7 @@
 				F446E0DF1AED930100DDCA02 /* RSSPlasmaSettings.h in Headers */,
 				F46F16491AEEE67700F901B6 /* RSSUserDefaults+Constants.h in Headers */,
 				F467A36E1AF1ADA500C5D70D /* RSSSettings.h in Headers */,
+				F4221B9721A61CFC00C3915B /* NSColor+LabelColor.h in Headers */,
 				F46128BB1AF01C0E00646320 /* RSSWindow.h in Headers */,
 				F446E0D51AED91B300DDCA02 /* RSSPlasmaView.h in Headers */,
 				F46F16381AEEE27D00F901B6 /* RSSAboutBoxWindowController.h in Headers */,
@@ -374,6 +381,7 @@
 				F446E0DB1AED91E900DDCA02 /* RSSPlasmaConfigurationWindowController.m in Sources */,
 				F46F163E1AEEE27D00F901B6 /* RSSSecondaryBox.m in Sources */,
 				F467A36F1AF1ADA500C5D70D /* RSSSettings.m in Sources */,
+				F4221B9821A61CFC00C3915B /* NSColor+LabelColor.m in Sources */,
 				F446E0E71AED93E000DDCA02 /* Plasma.cpp in Sources */,
 				F46F16421AEEE2C000F901B6 /* RSSConfigurationWindowController.m in Sources */,
 			);
@@ -500,7 +508,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 8;
+				CURRENT_PROJECT_VERSION = 11;
 				INFOPLIST_FILE = Plasma/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,7 +521,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 8;
+				CURRENT_PROJECT_VERSION = 11;
 				INFOPLIST_FILE = Plasma/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
