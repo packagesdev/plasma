@@ -38,17 +38,17 @@
 	
 	RSSPlasmaSettings * tPlasmaSettings=(RSSPlasmaSettings *) sceneSettings;
 	
-	[_zoomSlider setIntegerValue:tPlasmaSettings.zoom];
-	[_zoomValueLabel setIntegerValue:tPlasmaSettings.zoom];
+	_zoomSlider.integerValue=tPlasmaSettings.zoom;
+	_zoomValueLabel.integerValue=tPlasmaSettings.zoom;
 	
-	[_focusSlider setIntegerValue:tPlasmaSettings.focus];
-	[_focusValueLabel setIntegerValue:tPlasmaSettings.focus];
+	_focusSlider.integerValue=tPlasmaSettings.focus;
+	_focusValueLabel.integerValue=tPlasmaSettings.focus;
 	
-	[_speedSlider setIntegerValue:tPlasmaSettings.speed];
-	[_speedValueLabel setIntegerValue:tPlasmaSettings.speed];
+	_speedSlider.integerValue=tPlasmaSettings.speed;
+	_speedValueLabel.integerValue=tPlasmaSettings.speed;
 	
-	[_resolutionSlider setIntegerValue:tPlasmaSettings.resolution];
-	[_resolutionValueLabel setIntegerValue:tPlasmaSettings.resolution];
+	_resolutionSlider.integerValue=tPlasmaSettings.resolution;
+	_resolutionValueLabel.integerValue=tPlasmaSettings.resolution;
 }
 
 #pragma mark -
@@ -57,28 +57,28 @@
 {
 	((RSSPlasmaSettings *) sceneSettings).zoom=[sender integerValue];
 	
-	[_zoomValueLabel setIntegerValue:((RSSPlasmaSettings *) sceneSettings).zoom];
+	_zoomValueLabel.integerValue=((RSSPlasmaSettings *) sceneSettings).zoom;
 }
 
 - (IBAction)setFocus:(id)sender
 {
 	((RSSPlasmaSettings *) sceneSettings).focus=[sender integerValue];
 	
-	[_focusValueLabel setIntegerValue:((RSSPlasmaSettings *) sceneSettings).focus];
+	_focusValueLabel.integerValue=((RSSPlasmaSettings *) sceneSettings).focus;
 }
 
 - (IBAction)setSpeed:(id)sender
 {
 	((RSSPlasmaSettings *) sceneSettings).speed=[sender integerValue];
 	
-	[_speedValueLabel setIntegerValue:((RSSPlasmaSettings *) sceneSettings).speed];
+	_speedValueLabel.integerValue=((RSSPlasmaSettings *) sceneSettings).speed;
 }
 
 - (IBAction)setResolution:(id)sender
 {
 	((RSSPlasmaSettings *) sceneSettings).resolution=[sender integerValue];
 	
-	[_resolutionValueLabel setIntegerValue:((RSSPlasmaSettings *) sceneSettings).resolution];
+	_resolutionValueLabel.integerValue=((RSSPlasmaSettings *) sceneSettings).resolution;
 }
 
 @end
